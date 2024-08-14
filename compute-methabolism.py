@@ -24,12 +24,13 @@ def calculer_mb(poids, taille, age, entrainements_par_semaine, isMale):
     return mb_ajuste
 
 # Exemple d'utilisation
-poids = 115  # kg
-taille = 180  # cm
-age = 21  # années
-entrainements_par_semaine = 4  # nombre d'entraînements par semaine
+poids = 65  # kg
+taille = 170  # cm
+age = 20  # années
+entrainements_par_semaine = 3  # nombre d'entraînements par semaine
 
-mb = calculer_mb(poids, taille, age, entrainements_par_semaine, True)
-print(f"Le Métabolisme de Base ajusté est de : {mb:.2f} kcal/jour sans objectifs. ")
+mb = calculer_mb(poids, taille, age, entrainements_par_semaine, False)
+print(f"Le Métabolisme de Base ajusté est de : {mb:.2f} kcal/jour sans objectifs, pour {entrainements_par_semaine} entrainements par semaine.")
 print(f"Pour un objectif de perte de poids, il faudra réduire ce nombre de 300 - 500 calories par jour. (ex: {mb - 500:.2f} kcal/jour)")
-print(f"Pour un objectif de prise de poids ou de maintien, il faudra augmenter ce nombre de 300 - 500 calories par jour. (ex: {mb + 500:.2f} kcal/jour)")
+print(f"Pour un objectif de prise de poids, il faudra augmenter ce nombre de 300 - 500 calories par jour. (ex: {mb + 500:.2f} kcal/jour)")
+print(f"Pour un objectif de maintiens tu peux garder ce nombre de calories par jour.")
