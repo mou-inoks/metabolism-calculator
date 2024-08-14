@@ -18,6 +18,10 @@ Métabolisme de Base (MB) : Calculé avec la formule Harris-Benedict pour les ho
 
 MB=88.362+(13.397×poids)+(4.799×taille)−(5.677× âge)
 
+Métabolisme de Base (MB) : Calculé avec la formule Harris-Benedict pour les femmes :
+
+MB=655 +(9.6×poids)+(1.8×taille)−(4.7× âge)
+
 ## Facteur d'activité :
 
 0 entraînement par semaine : 1.2
