@@ -24,10 +24,10 @@ def calculer_mb(poids, taille, age, entrainements_par_semaine, isMale):
     return mb_ajuste
 
 # Exemple d'utilisation
-poids = 65  # kg
-taille = 170  # cm
-age = 20  # années
-entrainements_par_semaine = 3  # nombre d'entraînements par semaine
+poids = 115  # kg
+taille = 183  # cm
+age = 21  # années
+entrainements_par_semaine = 4  # nombre d'entraînements par semaine
 
 mb = calculer_mb(poids, taille, age, entrainements_par_semaine, False)
 print(f"Le Métabolisme de Base ajusté est de : {mb:.2f} kcal/jour sans objectifs, pour {entrainements_par_semaine} entrainements par semaine.")
